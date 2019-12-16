@@ -106,3 +106,8 @@ Caso esse planeta não exista ele retornará o erro 404 não encontrado.
 - É obrigatório fazer cadastro e autenticação do seu usuário para utilizar os endpoints, se tiver dúvidas, leia os testes de usuário criado.
 
 - É obrigatório passar o token em pelo menos uma das três formas possíveis para utilizar os endpoints.
+
+- Se quiser acessar o MongoDB pela interface web, basta acessar: http://localhost:1234 com os seguintes valores:
+  -- Nome da conexão: application
+  -- String da conexão: mongodb://db:27017
+  -- Clique em conectar na conexão criada.
