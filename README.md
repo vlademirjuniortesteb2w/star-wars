@@ -46,6 +46,7 @@
 ### <a name="Testes">4.Efetuando testes</a>  
 
 - Para rodar os testes execute o seguinte comando:
+<br/>
 -- npm test
 
 ### <a name="Funcionalidades">5.Funcionalidades</a>
