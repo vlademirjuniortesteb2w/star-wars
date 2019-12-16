@@ -38,8 +38,6 @@
 ### <a name="Rodando">3.Rodando o Projeto</a>
 - Para rodar o projeto execute os seguintes comandos:
 <br/>
--- sudo chmod -R 775 data/
-<br/>
 -- npm install
 <br/>
 -- docker-compose up --build
