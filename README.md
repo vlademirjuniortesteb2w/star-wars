@@ -54,6 +54,7 @@
 <br/>
 Ex:
 http://localhost:3000/api/v1/planets
+<br/>
 ```JSON
 {
    "name": "Nome qualquer",
