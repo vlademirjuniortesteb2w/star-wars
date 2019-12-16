@@ -36,7 +36,9 @@
 - Para o presente projeto foi utilizado: Docker, Node.js, MongoDB, Express, Mocha + Chai, JWT, Mongoose, Body-parser, Nodemon and NPM.
 
 ### <a name="Rodando">3.Rodando o Projeto</a>
-- Para rodar o projeto execute o seguinte comando:
+- Para rodar o projeto execute os seguintes comandos:
+-- sudo chmod -R 775 data/
+-- npm install
 -- docker-compose up --build
 
 ### <a name="Testes">4.Efetuando testes</a>  
