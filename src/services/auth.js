@@ -14,9 +14,9 @@ exports.decodeToken = async (token) => {
 exports.authorize = function (req, res, next) {// Middleware de autorização
     const token = req.body.token || req.query.token || req.headers['x-access-token'];
     /* Formas possíveis de enviar seu token em uma requisição:
-     localhost:3000/planets?token=MEUTOKEN
+     localhost:3000/api/v1/planets?token=MEUTOKEN
      Em headers no postman: key = x-access-token value=MEUTOKEN
-     Corpo da requisição : { "token": MEUTOKEN, "title": "ProdutoX",...}
+     Corpo da requisição : { "token": "MEUTOKEN", "name": "planetaX",...}
     */
     
     if (req.body.app == global.SALT_KEY) {
