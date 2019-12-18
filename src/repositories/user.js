@@ -27,7 +27,7 @@ exports.getById = async (id) => {
 }
 
 exports.destroy = async (id) => {
-    const res = await users.findOneAndRemove(id);
+    const res = await users.findByIdAndRemove({ _id:id });
 
     return res;
 }

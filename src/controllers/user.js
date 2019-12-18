@@ -126,6 +126,11 @@ exports.delete = async (req, res, next) => {
 
   try {
     let data = await repository.destroy(id);
+    console.log(data);
+
+    if (data == null) {
+      return res.status(404).end();  
+    }
 
     return res.status(204).json({}).end();
     
