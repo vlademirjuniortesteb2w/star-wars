@@ -27,7 +27,7 @@ describe('User', function() {
     email: 'vlademirjunior@protonmail.com',
     password: '123456',
     roles: 'test,user',
-    app: saltKey
+    app: saltKey // esse campo app, só é válido durante teste, em produção, deve ser o 'token' se quiser passar aqui e não por header ou query string.
   }
 
   var token;// Para armazenar o token do usuário mock para que possamos usar durante todo teste.
